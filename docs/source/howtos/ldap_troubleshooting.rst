@@ -38,7 +38,7 @@ Simple LDAP Query
 
 .. code:: bash
 
-  $ ldapseach -h yourldapserver.domain.local -p 389 -b \"dc=domain,dc=local\" -D \"CN=YourBindAccount,DC=domain,DC=local\" -W
+  $ ldapsearch -h yourldapserver.domain.local -p 389 -b \"dc=domain,dc=local\" -D \"CN=YourBindAccount,DC=domain,DC=local\" -W
 
 Add -Z to the ldapsearch line to switch to TLS.
 
